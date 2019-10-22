@@ -894,8 +894,8 @@ pre {
     max-width: 25%; }
   .col-md-4 {
     -webkit-box-flex: 0;
-    -ms-flex: 0 0 33.33333%;
-    flex: 0 0 33.33333%;
+    -ms-flex: 0 0 33.33%;
+    flex: 0 0 33.33%;
     max-width: 33.33333%; }
   .col-md-5 {
     -webkit-box-flex: 0;
@@ -7283,7 +7283,7 @@ body {
       -o-transform: translateX(0);
       transform: translateX(0);
       width: 270px;
-      background: #fff;
+      background: #7df6ee;
       z-index: 999;
       position: fixed; }
     body.offcanvas #colorlib-main, body.offcanvas .colorlib-nav-toggle {
@@ -7679,7 +7679,7 @@ h1, h2, h3, h4, h5,
     @media (max-width: 767.98px) {
       .photography-entry .text {
         opacity: 1; } }
-  .photography-entry:hover .overlay, .photography-entry:focus .overlay {
+  .photography-entry:hover .overlay{
     opacity: .7; }
   .photography-entry:hover .text, .photography-entry:focus .text {
     opacity: 1; }
